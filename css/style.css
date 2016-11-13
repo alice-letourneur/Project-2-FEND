@@ -1,0 +1,301 @@
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: #222;
+  list-style-type: none;
+}
+
+.clear-fix {
+  overflow: auto;
+}
+
+.col-xs-12 {
+  padding-left: 30px;
+}
+
+.dark-text {
+  color: #222;
+}
+
+.container-fluid {
+  background: #222;
+  padding-top: 10px;
+}
+
+#workExperience-header,
+#projects-header,
+#education-header,
+#online-header,
+#map-header {
+  padding-left: 3%;
+}
+
+.education-entry,
+.work-entry,
+.project-entry,
+.online-entry {
+  padding: 0 3%;
+}
+
+#workExperience, #projects, #education, #online {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 40px;
+  color: #f5a623;
+  line-height: 48px;
+  display: inline;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 3%;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 20px;
+  color: #f7ded4;
+  line-height: 22px;
+  padding: 2% 0;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4a4a4a;
+  line-height: 17px;
+}
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: left;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: right;
+}
+
+p {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+a {
+  color: #1199c3;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+.welcome-message {
+  font-size: 15px;
+  line-height: 28px;
+}
+
+#skills-h3 {
+  color: #e9967a;
+  display: none;
+}
+
+#topContacts {
+  padding-bottom: 20px;
+}
+
+.orange {
+  background-color: #e9967a;
+}
+
+.orange-text {
+  color: #e9967a;
+}
+
+.white-text {
+  font-weight: bold;
+}
+
+.light-pink {
+  color: #f7ded4;
+}
+
+.gray {
+  padding-bottom: 10px;
+  clear: both;
+}
+
+#header {
+  padding: 30px;
+}
+
+#name {
+  font-family: 'Lobster', cursive;
+  font-size: 290%;
+  text-align: center;
+  color: #e9967a;
+}
+
+#skills {
+  padding: 0;
+  margin: 0;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+
+.flex-item {
+  display: inline;
+}
+
+.thumbnail {
+  background-color: #282828;
+  border: 0;
+  margin-bottom: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+@media only screen and (min-width:961px) {
+  .work-entry:nth-child(odd), 
+  .project-entry:nth-child(odd), 
+  .education-entry:nth-child(odd), 
+  .online-entry:nth-child(odd) {
+      padding-left: 0;
+  }
+}
+
+.center-content {
+  padding: 2.5% 5%;
+}
+
+.biopic {
+  float: left;
+  margin-right: 10px;
+  padding: 0;
+  display: none;
+  max-width: 230px;
+  border-radius: 50px 15px;
+  border: solid #f7ded4;
+  width: 100%;
+}
+
+img {
+  padding: 10px;
+}
+
+span {
+  padding: 5px;
+}
+
+#lets-connect-header {
+  padding: 15px;
+}
+
+#lets-connect {
+  text-align: center;
+  padding-top: 5%;
+}
+
+/* Media queries to handle various device widths */
+
+@media only screen and (max-width: 1024px) {
+  #lets-connect {
+    margin-top: 5%;
+  };
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  };
+}
+
+@media only screen and (max-width: 750px) {
+  #lets-connect {
+    margin-top: 10%;
+  }
+
+  .biopic {
+    width: 150px;
+  }
+
+  .welcome-message {
+    display: none;
+  };
+}
+
+#map {
+  display: block;
+  height: 90%;
+  margin: 0;
+}
+
+.svg {
+  height: 45px;
+  padding: 0;
+}
+
+.logo-skills {
+  height: 70px;
+  width: 100px;
+}
+
+.project-img {
+  width: 100px;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+@media only screen and (min-width: 750px) {
+  #skills-h3,
+  .biopic {
+    display: block;
+  };
+}
+
+.licence {
+  padding-bottom: 0;
+}
+
+.back-homepage:hover {
+  text-decoration: none;
+}
+
+
